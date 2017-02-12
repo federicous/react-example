@@ -2,6 +2,7 @@ import * as React from "react";
 import { Component } from 'react';
 import './App.css';
 import logo from './logo.svg';
+import Counter from './Counter.jsx';
 class App extends Component {
     render() {
         return (
@@ -15,6 +16,10 @@ class App extends Component {
                     <code>src/App.js</code>
                     and save to reload.
                 </p>
+                <Counter />
+                <Counter />
+                <Counter />
+                <Counter />
             </div>
         );
     }
